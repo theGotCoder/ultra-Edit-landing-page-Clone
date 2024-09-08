@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+nav {
+    width : 100vw;
+    height : 96px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+nav img{
+    width: 175px;
+    cursor: pointer;
+    height: 55px;
+}
+.item ul {
+    display: flex;
+    gap: 30px;
+}
+
+.item ul li {
+    list-style: none;
+    cursor: pointer;
+}
+main{
+    padding: 70px 10px;
+    
+    margin: 0 194px;
+}
+
+main .sec{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 70px;
+    
+}
+main .sec span {
+    font-size: 50px;
+    word-spacing: 10px;
+}
+ h2 {
+    word-spacing: 10px;
+}
+
+main .sec p{
+    padding: 30px 0;
+    line-height: 30px;
+  text-align: center;
+  text-align: center;
+}
+ main .sec button {
+    width: 292px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    background-color: #09a6bd;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+ }
+  .sec1 h3 {
+
+    font-weight: 500;
+    font-size: 30px;
+    padding: 15px;
+    padding-left: 80px;
+    font-family :"Roboto", sans-serif;
+    margin-bottom: 26px;
+
+    
+ }
+ small , a{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+ }
+ .cont{
+    width: 960px;
+    height: 880px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+ }
+
+ .cont .box{
+
+    width: 270px;
+    height: 170px;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 16px 16px ;
+    
+    
+
+ }
+
+ .box h2 {
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-weight: 900;
+ }
+ .btn {
+    width: 240px;
+    height: 25px;
+    margin: 10px;
+ }
+
+ .btn button {
+    
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5cb85c;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    
+ }
+
+.code {
+    padding-top: 20px;
+    text-align: center;
+
+   
+    word-wrap: break-word;
+    width: 95%;
+    font-size: 8px;
+    cursor: pointer;
+}
+.hash {
+    
+    text-align: center;
+   
+    font-size: 8px;
+    padding-top: 10px;
+    word-wrap: break-word;
+    cursor: pointer;
+}
